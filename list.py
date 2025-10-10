@@ -1,0 +1,10 @@
+list1=[123,'abcd',3.4,'tom',74]
+list2=['ab',7,'ram',0.12]
+print(list1+list2)
+print(len(list1))
+list1.append('tom')
+print(list1)
+a=list1.count('abcd')
+print(a)
+list2.reverse()
+print(list2)
